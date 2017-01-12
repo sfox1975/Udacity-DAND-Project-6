@@ -1,0 +1,9 @@
+## Data Description
+
+The data was extracted from Amazon.com Annual Filings with the Securities and Exchange Commission (SEC):
+
+https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMZN&owner=exclude&action=getcompany&Find=Search
+
+The specific form searched was the Form 10-K (Annual Report). Searching for ‘Employees’ and ‘Net Sales’ within each year’s 10-K quickly brings up the annual employment count (as of December 31st of any given year) and the Net Sales (in $ millions generally) for the current year and the previous 2-4 years as well.
+
+This search was conducted for 2000 - 2015, typed into Excel and saved as a .csv file.
