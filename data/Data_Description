@@ -7,3 +7,7 @@ https://www.sec.gov/cgi-bin/browse-edgar?CIK=AMZN&owner=exclude&action=getcompan
 The specific form searched was the Form 10-K (Annual Report). Searching for ‘Employees’ and ‘Net Sales’ within each year’s 10-K quickly brings up the annual employment count (as of December 31st of any given year) and the Net Sales (in $ millions generally) for the current year and the previous 2-4 years as well.
 
 This search was conducted for 2000 - 2015, typed into Excel and saved as a .csv file.
+
+## Data Story
+
+I believe this data tells an interesting story regarding hiring (as measured by employment) at Amazon: Amazon has seen spectacular sales growth and product innovation over the period 2000-2015, and has needed to hire new people at a rate on par with the sales growth in order to maintain this momentum. This is supported by the fact that employment growth actually lags sales growth for most of the period under consideration.
