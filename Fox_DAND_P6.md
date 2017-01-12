@@ -15,7 +15,7 @@ I decided that 2000 - 2015 would be an interesting period to cover, given that i
 
 The initial design sketch was as follows:
 
-![Hand Sketch](https://github.com/sfox1975/Test/blob/master/Hand_Sketch.JPG)
+![Hand Sketch](https://github.com/sfox1975/Udacity-DAND-Project-6/blob/master/Hand_Sketch.JPG)
 
 
 
