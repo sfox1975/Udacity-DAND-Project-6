@@ -6,7 +6,7 @@
 
 ## Summary
 
-The purpose of my data visualization is to demonstrate the rapid growth in employment by Amazon over the last 15 years, and how that growth has been fueled by sales growth and major new product launches. Given the huge number of job openings in my town (Seattle) listed by Amazon, I wanted to further understand how their employment numbers have changed over time and also to put these numbers into the context of how much revenue the company is generating and also when new products were launched. To do so, I have constructed a timeline that demonstrates that employment growth has in fact lagged sales growth (i.e. outstanding sales appear to be driving the huge need for new employees) and have also overlaid the timeline with a few select key product launches (Prime, AWS, Kindle, Studio and Echo).
+The purpose of my data visualization is to demonstrate the rapid growth in employment at Amazon over the last 15 years, and how that growth has been fueled by sales growth and major new product launches. Given the huge number of job openings in my town (Seattle) listed by Amazon, I wanted to further understand how their employment numbers have changed over time and how those changes map to revenue growth and major new product launches. To do so, I have constructed a timeline that demonstrates that employment growth has in fact lagged sales growth (i.e. sales growth appear to be driving the huge need for new employees) and have also overlaid the timeline with a few select key product launches (Prime, AWS, Kindle, Studio and Echo).
 
 
 ## Design
@@ -19,7 +19,7 @@ The initial design sketch was as follows:
 
 ![Hand Sketch](https://github.com/sfox1975/Udacity-DAND-Project-6/blob/master/Hand_Sketch.JPG)
 
-The sketch consists of two lines, one for sales and one for employment. 
+The sketch consists of two lines, one for sales and one for employment. A legend is used to distinguish between the two data sets.
 
 ### Coded Sketch - Take 1
 
@@ -51,8 +51,8 @@ The resulting chart was as follows (see index2.html for the code):
 
 The Take 2 coded sketch was only subject to internal review, since it represented more of a halfway version of what I had hoped to achieve, but was worth a review since it was my first chance to see the bar chart / line chart combination. Based on what I saw, I decided to make the following changes:
 
-1. Make employee count the primary data series (i.e. on the left y-axis), since the story I am conveying is focused on employee count growth.
-2. Make employee count the data series that uses the bar chart, since I felt it better conveyed the idea that employment growth lagged sales growth (i.e. if this change were made, the bars would be below the line for most of the graph).
+1. Make employee count the primary data series (i.e. on the left y-axis), since the story I am conveying is focused on headcount growth.
+2. Make employee count the data series that uses the bar chart, since I felt it better conveyed the idea that employment growth lagged sales growth (i.e. if this change were made, the bars would be below the line for most of the graph, which I believe makes the story easier to follow with the graphic).
 3. Add key corporate events to the graph via the addition of single point bubbles on the top of the chart.
 
 The resulting chart was as follows (see index3.html for the code):
@@ -65,7 +65,7 @@ Once this plot was completed, it was distributed to the previous reviewers and p
 
 ### Coded Sketch - Final Version
 
-The reviewers found the new iteration of the graphic to be an improvement compared to the original. The only feedback I received that required a coding change was the desire of one reviewer to see the ‘Corporate Events’ labeled in the chart legend. This change was the final change made to the graphic prior to submitting the project for review. The final code is available in index.html and the chart can be seen in the following screenshot and URL:
+The reviewers found the new iteration of the graphic to be an improvement compared to the original. The only feedback I received that required a coding change was the desire of one reviewer to see ‘Corporate Events’ included in the chart legend. This change was the final change made to the graphic prior to submitting the project for review. The final code is available in index.html and the chart can be seen in the following screenshot and URL:
 
 ![Final Graphic](https://github.com/sfox1975/Udacity-DAND-Project-6/blob/master/Final.png)
 
@@ -73,7 +73,7 @@ The reviewers found the new iteration of the graphic to be an improvement compar
 
 ## Feedback
 
-A key part of the iterative process of developing this graphic was to obtain outside feedback. For this project, I obtained feedback from three people. In each case, the person reviewed and commented on the Take 1 and Take 3 versions of the graphic. Their feedback shaped the changes I made at each step of the design process.
+A key part of the iterative process of developing this graphic was to obtain and incorporate outside feedback. For this project, I obtained feedback from three people. In each case, the person reviewed and commented on the Take 1 and Take 3 versions of the graphic. Their feedback shaped the changes I made at each step of the design process.
 
 ### Friend 1 Feedback
 
@@ -83,7 +83,7 @@ A key part of the iterative process of developing this graphic was to obtain out
 
 I recommend you try plotting one of the data sets with bars. It will be easier to tell them apart. I think you should make the fonts on the x- and y-axis bigger (they are hard to read).”
 
-#### Friend 1 then provided the following feedbackk after reviewing Take 3:
+#### Friend 1 then provided the following feedback after reviewing Take 3:
 
 “This is a much better graph.  Instead of merely describing a correlation between two data (number of employees and annual sales), it suggests or states a causation, i.e. that the sales drives the employment.  By adding milestones, it also explains the source(s) of growth.  Amazon has grown at such a fast rate and has expanded its offerings to include just about everything under the sun, and the graph is pretty well designed in showing how the company grew after the introduction of a particular product/service.”
 
@@ -96,7 +96,7 @@ I recommend you try plotting one of the data sets with bars. It will be easier t
 
 #### Friend 2 provided the following feedback after reviewing Take 3:
 
-“Looks nice! All I’d say is that I figured out what the orange dots do but maybe you should add them to the legend so that its obvious to the user.”
+“Looks nice! One minor comment: I figured out what the orange dots are there for but maybe you should add them to the legend so that its obvious to the user.”
 
 
 ### Udacity Forum Feedback
@@ -111,6 +111,8 @@ My only suggested change would be the employees y-axis on the right.
 I would put it on the left next to the sale, in different color and maybe with less ticks. 
 The horizontal lignes are misleading, to my point of view, because we try to make a connection between the left y -axis and the right y-axis.”
 
+*My internal thought process on this particular comment: This comment inspired me to put “Employees” on the right axis, since it is the focus of the story I am trying to convey. But I rejected the suggestion to put both labels on the same axis, as I believe it will make it harder, not easier, to interpret the graph.*
+
 #### User emmanuelle_185407894 provided the following feedback after reviewing Take 3:
 
 “And you new graph is very good.”
@@ -124,7 +126,7 @@ https://guides.github.com/features/mastering-markdown/
 
 Numerous coding questions addressed via:
 
-Stack overflow.com
+http://stackoverflow.com/
 (special thanks to John Kiernander, whose dimple.js knowledge is truly impressive!)
 
 Key events in Amazon history:
@@ -135,3 +137,5 @@ https://en.wikipedia.org/wiki/Timeline_of_Amazon.com
 The idea to focus on Amazon employee growth was inspired by the elegant ‘Quadrant I’ figure (Apple employment) available at:
 
 http://dataremixed.com/2012/05/clarity-or-aesthetics-part-2-a-tale-of-four-quadrants/
+
+Last but not least, the Udacity Data Analyst Nanodegree Course slides were critical in shaping my design and coding decisions.
