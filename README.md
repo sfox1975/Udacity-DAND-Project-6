@@ -79,9 +79,9 @@ After submitting the Take 4 version to Udacity, I received the following feedbac
 
 Based on this feedback, I modifies the graph's subheading to avoid statements that imply a causal relationship between headcount growth and specific product launches. The resulting chart is as follows (code in index.html):
 
-![Final Graphic]()
+![Final Graphic](https://github.com/sfox1975/Udacity-DAND-Project-6/blob/master/Final-revised.png)
 
-(Interactive version available at: )
+(Interactive version available at: http://bl.ocks.org/sfox1975/raw/84d6f91b9aefbde532e1dcba4f2093c1/)
 
 
 ## Feedback
