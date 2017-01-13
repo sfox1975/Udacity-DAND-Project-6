@@ -6,7 +6,7 @@
 
 ## Summary
 
-The purpose of my data visualization is to demonstrate the rapid growth in employment at Amazon over the last 15 years, and how that growth has been fueled by sales growth and major new product launches. Given the huge number of job openings in my town (Seattle) listed by Amazon, I wanted to further understand how their employment numbers have changed over time and how those changes map to revenue growth and major new product launches. To do so, I have constructed a timeline that demonstrates that employment growth has lagged sales growth (i.e. sales growth appear to be driving the huge need for new employees) and I have also overlaid the timeline with a few key product launches (Prime, AWS, Kindle, Studio and Echo).
+The purpose of my data visualization is to demonstrate the rapid growth in employment at Amazon over the last 15 years, and how that growth has coincided with sales growth and major new product launches. Given the huge number of job openings listed in my town (Seattle) by Amazon, I wanted to further understand how their employment numbers have changed over time and how those changes map to revenue growth and major new product launches. To do so, I have constructed a timeline that demonstrates that employment growth has lagged sales growth (i.e. sales growth appear to be driving the huge need for new employees) and I have also overlaid the timeline with a few key product launches (Prime, AWS, Kindle, Studio and Echo), for the purpose of further informing the audience.
 
 
 ## Design
@@ -63,13 +63,26 @@ The resulting chart was as follows (see index3.html for the code):
 
 Once this plot was completed, it was distributed to the previous reviewers and posted on the Udacity forum, in order to get feedback.
 
-### Coded Sketch - Final Version
+### Coded Sketch - Take 4
 
-The reviewers found the new iteration of the graphic to be an improvement compared to the original. The only feedback I received that required a coding change was the desire of one reviewer to see ‘Corporate Events’ included in the chart legend. This change was the final change made to the graphic prior to submitting the project for review. The final code is available in index.html and the chart can be seen in the following screenshot and URL:
+The reviewers found the new iteration of the graphic to be an improvement compared to the original. The only feedback I received that required a coding change was the desire of one reviewer to see ‘Corporate Events’ included in the chart legend. This change was the final change made to the graphic prior to submitting the project to Udacity for review. The code is available in index4.html and the chart can be seen in the following screenshot and URL:
 
-![Final Graphic](https://github.com/sfox1975/Udacity-DAND-Project-6/blob/master/Final.png)
+![Take 4](https://github.com/sfox1975/Udacity-DAND-Project-6/blob/master/Final.png)
 
 (Interactive version available at http://bl.ocks.org/sfox1975/raw/dec70ed20801b050f5efccc0aa1f2893/)
+
+### Coded Sketch - Final Version
+
+After submitting the Take 4 version to Udacity, I received the following feedback:
+
+"...avoid statements that claim a relationship between the product launches and other elements. The launches are interesting and informative so I think it's best to leave them in. However, please make it clear that the product launches are there for reference, avoiding claims that launches fueled sales and growth, unless this can be clearly demonstrated."
+
+Based on this feedback, I modifies the graph's subheading to avoid statements that imply a causal relationship between headcount growth and specific product launches. The resulting chart is as follows (code in index.html):
+
+![Final Graphic]()
+
+(Interactive version available at: )
+
 
 ## Feedback
 
